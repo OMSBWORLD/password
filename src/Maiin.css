@@ -298,7 +298,7 @@ label{
     }
     .verify h2{
         margin-top: 10px;
-        margin-right: 150px;
+        margin-right: 120px;
         font-size: 18px;
     }
     .verify h3{
@@ -313,8 +313,8 @@ label{
         justify-content: space-around;
     }
     #code button{
-        width: 60px ;
-        height: 60px ;
+        width: 40px ;
+        height: 40px ;
         border: 2px solid gray;
         border-radius: 360px;
         color: rgb(154, 143, 143);
@@ -322,7 +322,7 @@ label{
         background: #ffffff;
     }
     span{
-        width: 48%;
+        width: 58%;
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
