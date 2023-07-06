@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import ForgotPage from './Forgot';
-import VerificationPage from './Verification';
-import NewPage from './New';
 import './Maiin.css'
 import A from './assets/A.png'
 import F from './assets/F.png'
