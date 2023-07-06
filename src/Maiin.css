@@ -296,6 +296,13 @@ label{
         flex-direction: column; 
         align-items: center;
     }
+    .sp{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
     .verify h2{
         margin-top: 10px;
         margin-right: 120px;
@@ -322,7 +329,7 @@ label{
         background: #ffffff;
     }
     span{
-        width: 58%;
+        width: 70%;
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
@@ -343,13 +350,7 @@ label{
         font-weight: bold;
         font-size: 20px;
     }
-    .sp{
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 60px;
-    }
+   
     .new-parent{
         display: flex;
         align-items: center;
