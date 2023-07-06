@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Gilroy-Regular';
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url("./Gilroy-Regular.ttf");
+  }
+.forgot-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+}
+.forgot{
+    width: 28%;
+    min-height: 90vh;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.forgot-one{
+    margin-top: 40px;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.forgot-one h3+h3{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.forgot-one h5{
+    color: rgb(173, 167, 167);
+}
+.forgot-one input{
+    padding-left: 20px;
+    border: 2px solid rgb(223, 217, 217);
+    width: 230px;
+    height: 40px;
+    border-radius: 50px;
+}
+.forgot-one button{
+    color: #ffffff;
+    background: rgb(235, 114, 70);
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+}
+.forgot-two{
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.forgot-two h6{
+  font-size: 18px;
+  font-weight: bold;
+}
+.img{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgot-two button{
+    padding-left: 20px;
+    border: 2px solid gray;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+}
+.verify-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+}
+.verify{
+    width: 28%;
+    min-height: 90vh;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.verify h2{
+    margin-top: 10px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.verify h3{
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#code{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#code button{
+    width: 60px ;
+    height: 60px ;
+    border: 2px solid gray;
+    border-radius: 360px;
+    color: rgb(154, 143, 143);
+    font-size: 20px;
+    background: #ffffff;
+}
+span{
+    width: 48%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.verify button{
+    color: #ffffff;
+    background: rgb(235, 114, 70);
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#back{
+    background: aliceblue;
+    width: 20px;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sp{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.new-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+}
+.new{
+    width: 28%;
+    min-height: 90vh;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.new h1{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+form{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 300px;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font: 20px;
+    outline: none;
+}
+.new button{
+    color: #ffffff;
+    background: rgb(235, 114, 70);
+    border: none;
+    width: 330px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+label{
+    margin-right: 150px;
+}
+@media screen and (max-width: 780px) {
+    .forgot-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        background: grey;
+    }
+    .forgot{
+        width: 80%;
+        min-height: 90vh;
+        background-color: aliceblue;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .forgot-one{
+        margin-top: 40px;
+        width: 70%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .forgot-one h3+h3{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    .forgot-one h5{
+        color: rgb(173, 167, 167);
+    }
+    .forgot-one input{
+        padding-left: 20px;
+        border: 2px solid rgb(223, 217, 217);
+        width: 230px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .forgot-one button{
+        color: #ffffff;
+        background: rgb(235, 114, 70);
+        border: none;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .forgot-two{
+        margin-top: 30px;
+        width: 70%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .forgot-two h6{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .img{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .forgot-two button{
+        padding-left: 20px;
+        border: 2px solid gray;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .verify-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        background: grey;
+    }
+    .verify{
+        width: 80%;
+        min-height: 90vh;
+        background-color: aliceblue;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .verify h2{
+        margin-top: 10px;
+        margin-right: 150px;
+        font-size: 18px;
+    }
+    .verify h3{
+        font-size: 16px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    #code{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #code button{
+        width: 60px ;
+        height: 60px ;
+        border: 2px solid gray;
+        border-radius: 360px;
+        color: rgb(154, 143, 143);
+        font-size: 20px;
+        background: #ffffff;
+    }
+    span{
+        width: 48%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .verify button{
+        color: #ffffff;
+        background: rgb(235, 114, 70);
+        border: none;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    #back{
+        background: aliceblue;
+        width: 20px;
+        color: grey;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .sp{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .new-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        background: grey;
+    }
+    .new{
+        width: 80%;
+        min-height: 90vh;
+        background-color: aliceblue;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .new h1{
+        margin-top: 80px;
+        margin-bottom: 100px;
+        font-size: 20px;
+    }
+    form{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form input{
+        width: 300px;
+        height: 50px;
+        border: 2px solid grey;
+        border-radius: 50px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font: 20px;
+        outline: none;
+    }
+    .new button{
+        color: #ffffff;
+        background: rgb(235, 114, 70);
+        border: none;
+        width: 330px;
+        height: 60px;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    label{
+        margin-right: 150px;
+    }
+}
