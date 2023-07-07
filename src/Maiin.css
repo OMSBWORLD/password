@@ -306,7 +306,7 @@ label{
     }
     .verify h2{
         margin-top: 10px;
-        margin-right: 50px;
+        margin-right: 70px;
         font-size: 18px;
     }
     .verify h3{
@@ -330,11 +330,12 @@ label{
         background: #ffffff;
     }
     span{
-        width: 40%;
+        width: 55%;
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
         font-size: 14px;
+        border: 2px solid green;
     }
     .verify button{
         color: #ffffff;
