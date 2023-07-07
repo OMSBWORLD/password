@@ -336,7 +336,7 @@ label{
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
-        font-size: 12px;
+        font-size: 10px;
         border: 2px solid green;
     }
     .verify button{
