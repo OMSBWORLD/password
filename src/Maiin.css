@@ -297,7 +297,7 @@ label{
         align-items: center;
     }
     .sp{
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -306,7 +306,7 @@ label{
     }
     .verify h2{
         margin-top: 10px;
-        margin-right: 100px;
+        margin-right: 50px;
         font-size: 18px;
     }
     .verify h3{
