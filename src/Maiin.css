@@ -298,6 +298,7 @@ label{
     }
     .sp{
         width: 80%;
+        max-width: 300px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -330,7 +331,8 @@ label{
         background: #ffffff;
     }
     span{
-        width: 55%;
+        width: 70%;
+        max-width: 180px;
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
